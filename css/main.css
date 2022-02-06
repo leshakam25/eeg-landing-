@@ -574,7 +574,7 @@ template {
   color: #242424;
   padding-top: 20px;
 }
-.year {
+.year-first {
   font-family: Bebas Neue;
   font-style: normal;
   font-weight: normal;
@@ -583,6 +583,21 @@ template {
   color: #f4f4f4;
   text-align: right;
   margin-top: -290px;
+}
+@media (max-width: 1000px) {
+  .year-first {
+    margin-top: -0;
+    text-align: center;
+  }
+}
+.year {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 288px;
+  line-height: 346px;
+  color: #f4f4f4;
+  text-align: right;
 }
 @media (max-width: 1000px) {
   .year {
